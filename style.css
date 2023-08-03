@@ -1,0 +1,192 @@
+/* CSS cho toàn bộ thẻ  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+}
+
+/* <!-- Start Header --> */
+.header {
+  background-color: bisque;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+.header .header-logo {
+  margin-bottom: 20px;
+}
+
+.header .header-menu ul li {
+  display: inline;
+  margin-right: 25px;
+}
+/* End Header */
+
+/* Start Carousel */
+.carousel {
+  height: 700px;
+  background-image: url(./Image/BG.png);
+  background-position: center;
+  background-size: cover;
+}
+/* End Carousel */
+
+/* Start Activity */
+.activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity .activity-text {
+  text-align: center;
+}
+
+/* End Activity */
+
+/* Start List */
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.list .list-item {
+  width: 350px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.list .list-item .list-logo {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.list .list-item .list-logo img {
+  border-radius: 20px;
+}
+
+.list .list-item .list-content {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.list .list-item .list-content p {
+  line-height: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.list .list-item .list-content button {
+  padding: 10px 35px;
+  border-radius: 20px;
+  border: none;
+  color: grey;
+  margin-top: 20px;
+}
+
+/* End List */
+
+.viewall {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.viewall button {
+  padding: 10px 50px;
+  border-radius: 20px;
+  color: red;
+  border-color: red;
+  background-color: transparent;
+}
+
+/* Start Download */
+
+.download {
+  background-color: beige;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  color: grey;
+  padding-bottom: 40px;
+}
+
+.download .content-text {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  line-height: 35px;
+}
+
+.download .content-text h3 {
+  font-size: 35px;
+  /* color: grey; */
+}
+
+.download .content-text p {
+  font-size: 15px;
+  /* color: grey; */
+}
+
+.download .content-logo {
+  display: flex;
+  gap: 5px;
+}
+
+.download .content-logo h3 {
+  margin-bottom: 30px;
+  
+}
+
+.download .socical-media i {
+  font-size: 30px;
+  color: coral;
+}
+
+/* End Download */
+
+.blank {
+  background-color: white;
+  height: 70px;
+}
+.blank {
+  background-color: white;
+}
+/* Start Footer */
+ .footer {
+ background-color: beige;
+  border-radius:50px ;
+  padding: 30px;
+
+ }
+
+ .footer .footer-con {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: baseline;
+ padding-left: 50px;
+ 
+ }
+
+ .footer .footer-con .footer-intro h4 {
+  margin-bottom: 20px;
+ }
+ 
+ .footer .footer-con ul li {
+  list-style: none;
+  margin-bottom: 12px;
+ }
+
+
